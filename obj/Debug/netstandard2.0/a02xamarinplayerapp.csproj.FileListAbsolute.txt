@@ -14,3 +14,4 @@ C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinpl
 C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Debug\netstandard2.0\Play.xaml.g.cs
 C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Debug\netstandard2.0\a02xamarinplayerapp.csprojAssemblyReference.cache
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Debug\netstandard2.0\PlayerPage.xaml.g.cs

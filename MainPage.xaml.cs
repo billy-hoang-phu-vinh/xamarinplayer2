@@ -1,20 +1,22 @@
 ﻿using MusicApp.Model;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System;
+using System.Collections.Generic;
+using MusicApp.ViewModel;
+using MusicApp;
 
 namespace a02xamarinplayerapp
 {
     public partial class MainPage : ContentPage
     {
         ObservableCollection<Music> temp_musicList;
-
-        public MainPage(System.Collections.ObjectModel.ObservableCollection<MusicApp.Model.Music> music_list)
+        //Music temp_music;
+        public MainPage(ObservableCollection<Music> music_list)
         {
             InitializeComponent();
             temp_musicList = music_list;
@@ -32,10 +34,19 @@ namespace a02xamarinplayerapp
                 OnPropertyChanged();
             }
         }
-
-        async void mylist_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        private Music selectedMusic;
+        public Music SelectedMusic
         {
-
+            get { return selectedMusic; }
+            set
+            {
+                selectedMusic = value;
+                OnPropertyChanged();
+            }
+        }
+        async void MyListSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            //await Navigation.PushModalAsync(new Play(recentMusic, temp_musicList));
             await Navigation.PushModalAsync(new Play());
         }
     }

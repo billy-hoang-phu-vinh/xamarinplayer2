@@ -29,9 +29,9 @@
         <Image Grid.Row="1" Source="https://raw.githubusercontent.com/billy-hoang-phu-vinh/xamarin-musicplayer/main/playicon.png" HeightRequest="400" WidthRequest="400" HorizontalOptions="Center" VerticalOptions="Center"/>
 
         <StackLayout Grid.Row="2">
-            <ListView x:Name="mylist"  HasUnevenRows="false" HeightRequest="700" ItemSelected="mylist_ItemSelected" 
+            <ListView x:Name="mylist"  HasUnevenRows="false" HeightRequest="700" ItemSelected="MyListSelected" 
                       RelativeLayout.HeightConstraint="{
-                ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.7}"
+                ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.3}"
                       
                       RelativeLayout.WidthConstraint="{
                 ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}">

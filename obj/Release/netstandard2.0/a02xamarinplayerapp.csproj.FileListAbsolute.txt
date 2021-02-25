@@ -1,0 +1,17 @@
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\bin\Release\netstandard2.0\a02xamarinplayerapp.deps.json
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\bin\Release\netstandard2.0\a02xamarinplayerapp.dll
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\bin\Release\netstandard2.0\ref\a02xamarinplayerapp.dll
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\bin\Release\netstandard2.0\a02xamarinplayerapp.pdb
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\navigationPage.xaml.g.cs
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\Play.xaml.g.cs
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\a02xamarinplayerapp.AssemblyInfoInputs.cache
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\a02xamarinplayerapp.AssemblyInfo.cs
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\a02xamarinplayerapp.csproj.CoreCompileInputs.cache
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\a02xamarinplayerapp.dll
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\ref\a02xamarinplayerapp.dll
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\a02xamarinplayerapp.pdb
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\PlayerPage.xaml.g.cs
+C:\Users\hoang\source\repos\a02xamarinplayerapp\a02xamarinplayerapp\a02xamarinplayerapp\obj\Release\netstandard2.0\a02xamarinplayerapp.csprojAssemblyReference.cache
