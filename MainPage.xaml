@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="a02xamarinplayerapp.MainPage">
+
+    <Grid RowSpacing="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image Aspect="AspectFill" Grid.RowSpan="2" Source="{Binding RecentMusic.CoverImage}"/>
+                <Grid Grid.Row="1" HeightRequest="80" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <BoxView BackgroundColor="Black" Opacity="0.7" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                    <StackLayout Margin="40,0" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                        <Label Text="{Binding RecentMusic.Title}" TextColor="White" FontSize="17"/>
+                        <Label Text="{Binding RecentMusic.Artist}" TextColor="White" FontSize="12" Opacity="0.8"/>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+        </StackLayout>
+
+        <Image Grid.Row="1" Source="https://raw.githubusercontent.com/billy-hoang-phu-vinh/xamarin-musicplayer/main/playicon.png" HeightRequest="400" WidthRequest="400" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <StackLayout Grid.Row="2">
+            <ListView x:Name="mylist"  HasUnevenRows="false" HeightRequest="700" ItemSelected="mylist_ItemSelected" 
+                      RelativeLayout.HeightConstraint="{
+                ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.7}"
+                      
+                      RelativeLayout.WidthConstraint="{
+                ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!--<ImageCell Text="{Binding name}" Detail="{Binding number}" ImageSource="{Binding image}" TextColor="Black" DetailColor="Aqua"/>-->
+
+                        <ViewCell >
+                            <Grid BackgroundColor="#F7F9FC" Padding="15,10" HorizontalOptions="FillAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout VerticalOptions="Center">
+                                    <Label Text="{Binding Title}" TextColor="Black" FontSize="17"/>
+                                    <Label Text="{Binding Artist}" TextColor="Black" FontSize="10" Opacity="0.5"/>
+                                </StackLayout>
+
+                                <Image Source="https://raw.githubusercontent.com/billy-hoang-phu-vinh/xamarin-musicplayer/main/sourcefiles/Music_player_logo.png"  WidthRequest="40" HeightRequest="40" HorizontalOptions="End" VerticalOptions="Center"/>
+                            </Grid>
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+
+            </ListView>
+
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
